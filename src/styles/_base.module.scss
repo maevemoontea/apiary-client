@@ -1,0 +1,45 @@
+$primary-color: #FFC107;
+$accent-color: #89E73F;
+$main-text-color: #2F322E;
+$main-bg-color: #FFFFFF;
+$low-text-color: #2C313A;
+$low-bg-color: #F8F5ED;
+
+$h1-size: 3.125em;
+$h2-size: 2.618em;
+$h3-size: 1.931em;
+$h4-size: 1.618em;
+$h5-size: 1.194em;
+$h6-size: 1em;
+$font-size: 16px;
+$font-stack: Roboto, Helvetica, sans-serif;
+
+
+@mixin heading-1() {
+	font-family: $font-stack;
+	font-style: normal;
+	font-weight: bold;
+	font-size: $h1-size;
+}
+@mixin heading-2() {
+	font-family: $font-stack;
+	font-style: normal;
+	font-weight: normal;
+	font-size: $h2-size;
+}
+@mixin heading-3() {
+	font-family: $font-stack;
+	font-style: normal;
+	font-weight: bold;
+	font-size: $h3-size;
+}
+@mixin heading-4() {
+	font-family: $font-stack;
+	font-style: normal;
+	font-weight: bold;
+	font-size: $h4-size;
+}
+@mixin area() {
+	background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+};
